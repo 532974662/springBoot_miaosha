@@ -37,6 +37,8 @@ public class HelloController {
         model.addAttribute("name","轻狂书生");
         return "hello";
     }
+
+    //数据改变
 //    @RequestMapping("/db/get")
 //    @ResponseBody
 //    public Result<String> dbGet(){
